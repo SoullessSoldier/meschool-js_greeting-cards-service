@@ -1,0 +1,75 @@
+.header{
+    position: relative;
+    z-index: 1;
+    padding: 28px 0;
+    background-color: #fff;
+    box-shadow: 0px 1px 20px rgba(72, 3, 38, 0.07);
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__button-change{    
+    margin-right: 30px;
+    width: 300px;
+    height: 65px;
+    background-color: #C300C7;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.header__button-change:last-child{
+    margin-right: 0;
+}
+
+.header__button-gender{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 24px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+}
+
+.header__button-gender:last-child{
+    margin-right: 0;
+}
+
+.header__button-gender_women{
+    /* border-color: #C300C7; */
+    background-image: url('../img/women_line.svg');
+}
+
+.header__button-gender_men{
+    /* border-color: #1178B3; */
+    background-image: url('../img/men_line.svg');
+}
+
+@media (max-width: 880px) {
+    .header__button-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .header__button-change,
+    .header__button-gender{
+        margin-right: 0;
+    }
+    .header__button-change{
+        width: 220px;
+        height: 45px;
+        font-size: 14px;
+    }
+    .header__button-gender{
+        width: 40px;
+        height: 40px;
+        background-size: 30px;
+    }
+}

@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-bottom: 17px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF1F8;
+}
+
+button {
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+@media (max-width: 880px){
+    .container{
+        padding: 0 10px;
+    }
+}
