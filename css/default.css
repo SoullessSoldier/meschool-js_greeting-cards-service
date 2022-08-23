@@ -9,8 +9,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    padding-bottom: 17px;
+    height: 100vh;    
     font-family: 'Open Sans', sans-serif;
     background-color: #FFF1F8;
 }
@@ -22,6 +21,24 @@ button {
 img{
     max-width: 100%;
     height: auto;
+}
+
+p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.women{
+    background-color: #FFF1F8;    
+}
+.men{
+    background-color: #EFF9FE;
+
 }
 
 .container{

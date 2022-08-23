@@ -9,18 +9,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 .header__button-change{    
     margin-right: 30px;
     width: 300px;
-    height: 65px;
-    background-color: #C300C7;
+    height: 65px;    
     border: none;
     border-radius: 30px;
     font-weight: 700;
     font-size: 18px;
     color: #FFFFFF;
 }
+.women .header__button-change{
+    background-color: #C300C7;
+}
+
+.men .header__button-change{
+    background-color: #1178B3;
+}
+
 .header__button-change:last-child{
     margin-right: 0;
 }
@@ -43,13 +51,19 @@
 }
 
 .header__button-gender_women{
-    /* border-color: #C300C7; */
     background-image: url('../img/women_line.svg');
 }
 
 .header__button-gender_men{
-    /* border-color: #1178B3; */
     background-image: url('../img/men_line.svg');
+}
+
+.women .header__button-gender_women{
+    border-color: #C300C7;
+}
+
+.men .header__button-gender_men{
+    border-color: #1178B3;
 }
 
 @media (max-width: 880px) {

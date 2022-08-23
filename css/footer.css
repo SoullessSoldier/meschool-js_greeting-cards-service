@@ -1,3 +1,6 @@
+.footer{
+    padding: 17px 0;
+}
 .footer__container{
     display: flex;
     align-items: center;
@@ -10,9 +13,7 @@
     gap: 8px;
 }
 
-.footer__text{
-    margin: 0;
-    padding: 0;
+.footer__text{    
     font-size: 16px;
     color: #000000;
 }
@@ -22,4 +23,25 @@
     align-items: center;
     justify-content: space-between;
     gap: 16px;
+}
+
+.women .footer__social-link {
+    color: #C300C7;
+}
+
+.men .footer__social-link {
+    color: #1178B3;
+}
+
+@media (max-width: 480px){
+    .footer__container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer__text-wrapper{
+        order: 2;
+    }
+    .footer__socials-wrapper{
+        order: 1;
+    }
 }
