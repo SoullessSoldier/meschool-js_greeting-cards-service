@@ -33,6 +33,10 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .women{
     background-color: #FFF1F8;    
 }
@@ -46,6 +50,15 @@ ul{
     padding: 0 20px;
     margin: 0 auto;
 }
+
+.women button:hover{
+    box-shadow: 0 0 5px 5px #e5e5e5;    
+}
+
+.men button:hover{
+    box-shadow: 0 0 5px 5px #e5e5e5;    
+}
+
 
 @media (max-width: 880px){
     .container{
