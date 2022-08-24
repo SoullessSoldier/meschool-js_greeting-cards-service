@@ -45,9 +45,11 @@ const createDownloadLink = async () => {
 	    a.download = "greeting.png";
         a.textContent = 'Сохранить открытку';
 		const img=canvas.toDataURL("image/png");
-        a.href = img;
-        showLoader(cardLink, false); 
-        cardLink.append(a);
+        a.href = img;         
+        setTimeout(() => {
+            showLoader(cardLink, false);
+            cardLink.append(a);
+        }, 1500);
 	});
     /* вариант с открытием рисунка в новом окне
     const newWindow = window.open(
