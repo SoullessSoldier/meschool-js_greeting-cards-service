@@ -29,8 +29,16 @@
     color: #C300C7;
 }
 
+.women .footer__social-link:hover {
+    color: #C300C780;
+}
+
 .men .footer__social-link {
     color: #1178B3;
+}
+
+.men .footer__social-link:hover {
+    color: #1178B380;
 }
 
 @media (max-width: 480px){
