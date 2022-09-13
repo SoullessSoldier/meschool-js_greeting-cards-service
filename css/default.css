@@ -18,6 +18,10 @@ button {
     cursor: pointer;
 }
 
+button:hover{
+    box-shadow: 0 0 5px 5px #e5e5e5;    
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -38,7 +42,7 @@ a{
 }
 
 .women{
-    background-color: #FFF1F8;    
+    background-color: #fff1f8;    
 }
 .men{
     background-color: #EFF9FE;
@@ -50,15 +54,6 @@ a{
     padding: 0 20px;
     margin: 0 auto;
 }
-
-.women button:hover{
-    box-shadow: 0 0 5px 5px #e5e5e5;    
-}
-
-.men button:hover{
-    box-shadow: 0 0 5px 5px #e5e5e5;    
-}
-
 
 @media (max-width: 880px){
     .container{
